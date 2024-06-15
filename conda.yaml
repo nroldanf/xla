@@ -1,0 +1,10 @@
+name: xla
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10  # O la versión que necesites
+  - pip=24.0
+  # - torch-xla
+  - pip:
+    - -r requirements.txt
